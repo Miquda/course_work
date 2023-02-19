@@ -52,7 +52,3 @@ def get_transactions(filename):
 {sorted_dict[counter]["operationAmount"]['amount']} {sorted_dict[counter]["operationAmount"]['currency']['name']}
 ''')
         counter += 1
-
-
-print(get_transactions('operations.json'))
-
